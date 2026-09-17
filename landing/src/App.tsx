@@ -830,9 +830,9 @@ export function App() {
 
         {/* UN SDG 8 IMPACT */}
         <section id="sdg" style={{ marginBottom: 56 }}>
-          <div style={{ background: 'linear-gradient(135deg, rgba(37,99,235,0.08) 0%, rgba(79,70,229,0.08) 100%)', border: '1px solid var(--border-card)', borderRadius: 16, padding: 36 }}>
+          <div style={{ background: 'linear-gradient(135deg, rgba(220,38,38,0.06) 0%, rgba(26,26,26,0.06) 100%)', border: '1px solid var(--border-card)', borderRadius: 16, padding: 36 }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 12 }}>
-              <span style={{ background: '#e11d48', color: '#fff', padding: '4px 10px', borderRadius: 4, fontWeight: 800, fontFamily: 'JetBrains Mono', fontSize: '0.8rem' }}>
+              <span style={{ background: '#dc2626', color: '#fff', padding: '4px 10px', borderRadius: 4, fontWeight: 800, fontFamily: 'JetBrains Mono', fontSize: '0.8rem' }}>
                 UN SDG 8
               </span>
               <h3 style={{ fontSize: '1.4rem', fontWeight: 800 }}>

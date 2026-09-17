@@ -1,53 +1,53 @@
 :root {
-  --bg-canvas: #f8fafc;
+  --bg-canvas: #fafafa;
   --bg-panel: #ffffff;
-  --bg-surface: #f1f5f9;
-  --border-subtle: #e2e8f0;
-  --border-card: #cbd5e1;
-  --border-active: #2563eb;
+  --bg-surface: #f5f5f5;
+  --border-subtle: #e5e5e5;
+  --border-card: #d4d4d4;
+  --border-active: #dc2626;
 
-  --text-primary: #0f172a;
-  --text-secondary: #475569;
-  --text-muted: #64748b;
+  --text-primary: #0a0a0a;
+  --text-secondary: #525252;
+  --text-muted: #737373;
 
-  --accent-blue: #2563eb;
-  --accent-blue-hover: #1d4ed8;
-  --accent-cyan: #0284c7;
-  --accent-emerald: #059669;
+  --accent-blue: #dc2626;
+  --accent-blue-hover: #b91c1c;
+  --accent-cyan: #991b1b;
+  --accent-emerald: #16a34a;
   --accent-amber: #d97706;
-  --accent-rose: #e11d48;
-  --accent-indigo: #4f46e5;
+  --accent-rose: #dc2626;
+  --accent-indigo: #1a1a1a;
 
-  --navbar-bg: rgba(255, 255, 255, 0.85);
-  --card-shadow: 0 4px 20px rgba(15, 23, 42, 0.05);
-  --card-shadow-hover: 0 12px 30px rgba(15, 23, 42, 0.09);
-  --card-glow: rgba(37, 99, 235, 0.1);
+  --navbar-bg: rgba(255, 255, 255, 0.9);
+  --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  --card-shadow-hover: 0 12px 30px rgba(0, 0, 0, 0.1);
+  --card-glow: rgba(220, 38, 38, 0.08);
 }
 
 [data-theme="dark"] {
-  --bg-canvas: #0b0f19;
-  --bg-panel: #111726;
-  --bg-surface: #172033;
-  --border-subtle: #1e293b;
-  --border-card: #243047;
-  --border-active: #3b82f6;
+  --bg-canvas: #0a0a0a;
+  --bg-panel: #141414;
+  --bg-surface: #1a1a1a;
+  --border-subtle: #262626;
+  --border-card: #333333;
+  --border-active: #ef4444;
 
-  --text-primary: #f8fafc;
-  --text-secondary: #94a3b8;
-  --text-muted: #64748b;
+  --text-primary: #fafafa;
+  --text-secondary: #a3a3a3;
+  --text-muted: #737373;
 
-  --accent-blue: #3b82f6;
-  --accent-blue-hover: #2563eb;
-  --accent-cyan: #06b6d4;
-  --accent-emerald: #10b981;
-  --accent-amber: #f59e0b;
-  --accent-rose: #f43f5e;
-  --accent-indigo: #6366f1;
+  --accent-blue: #ef4444;
+  --accent-blue-hover: #dc2626;
+  --accent-cyan: #f87171;
+  --accent-emerald: #22c55e;
+  --accent-amber: #fbbf24;
+  --accent-rose: #f87171;
+  --accent-indigo: #262626;
 
-  --navbar-bg: rgba(17, 23, 38, 0.85);
-  --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
-  --card-shadow-hover: 0 14px 34px rgba(0, 0, 0, 0.55);
-  --card-glow: rgba(59, 130, 246, 0.15);
+  --navbar-bg: rgba(14, 14, 14, 0.9);
+  --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  --card-shadow-hover: 0 14px 34px rgba(0, 0, 0, 0.7);
+  --card-glow: rgba(239, 68, 68, 0.12);
 }
 
 * {
@@ -135,7 +135,7 @@ button {
   padding: 6px 12px;
   border-radius: 8px;
   letter-spacing: 0.05em;
-  box-shadow: 0 2px 10px rgba(37, 99, 235, 0.35);
+  box-shadow: 0 2px 10px rgba(220, 38, 38, 0.35);
 }
 
 .brand-logo-img {
@@ -186,7 +186,7 @@ button {
   font-size: 0.7rem;
   font-weight: 700;
   color: var(--accent-cyan);
-  background: rgba(2, 132, 199, 0.1);
+  background: rgba(220, 38, 38, 0.08);
   border: 1px solid var(--accent-cyan);
   padding: 2px 8px;
   border-radius: 12px;
@@ -243,7 +243,7 @@ button {
   border-radius: 8px;
   font-size: 0.88rem;
   font-weight: 700;
-  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
+  box-shadow: 0 4px 14px rgba(220, 38, 38, 0.35);
   transition: all 0.2s ease;
   display: inline-flex;
   align-items: center;
@@ -253,7 +253,7 @@ button {
 
 .btn-launch:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.45);
+  box-shadow: 0 6px 20px rgba(220, 38, 38, 0.45);
   color: #ffffff;
 }
 
@@ -313,7 +313,7 @@ button {
   gap: 8px;
   padding: 6px 14px;
   border-radius: 24px;
-  background: rgba(37, 99, 235, 0.1);
+  background: rgba(220, 38, 38, 0.1);
   border: 1px solid var(--accent-blue);
   color: var(--accent-blue);
   font-family: 'JetBrains Mono', monospace;
