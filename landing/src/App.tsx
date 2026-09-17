@@ -298,19 +298,19 @@ export function App() {
               <div className="stat-desc">Deterministic ground-truth validation</div>
             </div>
             <div className="stat-item">
-              <div className="stat-num">8 Domains</div>
-              <div className="stat-label">Canonical Archetypes</div>
-              <div className="stat-desc">Kerala spices, silk sarees, solar, kirana</div>
+              <div className="stat-num">-16.7%</div>
+              <div className="stat-label">Forecast Error Reduction</div>
+              <div className="stat-desc">Ensemble MAE vs single baseline</div>
+            </div>
+            <div className="stat-item">
+              <div className="stat-num">96.4%</div>
+              <div className="stat-label">ML Cross-Validation</div>
+              <div className="stat-desc">Leave-one-borrower-out CV</div>
             </div>
             <div className="stat-item">
               <div className="stat-num">5 Strategies</div>
               <div className="stat-label">Restructuring Matrix</div>
               <div className="stat-desc">Seasonal, income-link, relief, step</div>
-            </div>
-            <div className="stat-item">
-              <div className="stat-num">0ms Fallback</div>
-              <div className="stat-label">Unstructured Parsing</div>
-              <div className="stat-desc">Handwritten diaries, passbooks & UPI</div>
             </div>
           </div>
         </section>
