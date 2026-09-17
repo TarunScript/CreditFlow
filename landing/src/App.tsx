@@ -204,8 +204,7 @@ export function App() {
       <header className="navbar-wrap">
         <div className="navbar-container">
           <div className="brand-group" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-            <div className="brand-logo">CREDITFLOW</div>
-            <span className="brand-title">CreditFlow</span>
+            <img src="/logo.jpg" alt="CreditFlow" className="brand-logo-img" />
             <span className="brand-tag">P12 BENCHMARK</span>
           </div>
 
@@ -246,6 +245,14 @@ export function App() {
       <main className="page-container">
         {/* HERO SECTION */}
         <section className="hero-wrapper">
+          <div className="hero-logo-banner">
+            <img 
+              src="/logo.jpg" 
+              alt="CreditFlow — Adaptive Repayments for Real Incomes" 
+              className="hero-brand-card" 
+            />
+          </div>
+
           <div className="hero-pill-badge">
             <span style={{ width: 8, height: 8, borderRadius: '50%', backgroundColor: 'var(--accent-blue)', display: 'inline-block' }}></span>
             MIT HACKATHON 2026 • DETERMINISTIC UNDERWRITING ENGINE
@@ -851,21 +858,28 @@ export function App() {
       {/* Footer */}
       <footer className="footer-wrap">
         <div style={{ maxWidth: 1240, margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 16 }}>
-          <div style={{ textAlign: 'left' }}>
-            <div style={{ fontWeight: 800, color: 'var(--text-primary)', fontSize: '1rem', marginBottom: 2 }}>
-              CreditFlow Decision Terminal
-            </div>
-            <div style={{ fontSize: '0.78rem' }}>
-              Built for the MIT Hackathon 2026 • 100% Deterministic Engine
+          <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
+            <img 
+              src="/logo.jpg" 
+              alt="CreditFlow" 
+              style={{ height: 42, width: 'auto', background: '#ffffff', borderRadius: 8, padding: '3px 8px', border: '1px solid var(--border-card)', objectFit: 'contain' }} 
+            />
+            <div style={{ textAlign: 'left' }}>
+              <div style={{ fontWeight: 800, color: 'var(--text-primary)', fontSize: '1rem', marginBottom: 2 }}>
+                CreditFlow Decision Terminal
+              </div>
+              <div style={{ fontSize: '0.78rem' }}>
+                Built for the MIT Hackathon 2026 • 100% Deterministic Engine
+              </div>
             </div>
           </div>
 
-          <div style={{ display: 'flex', gap: 20 }}>
+          <div style={{ display: 'flex', gap: 20, alignItems: 'center' }}>
             <a href={STREAMLIT_URL} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent-blue)', fontWeight: 600 }}>
               Streamlit Terminal (Port 8501) ↗
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)' }}>
-              Source Repository
+            <a href="https://github.com/TarunScript/CreditFlow" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)' }}>
+              Source Repository ↗
             </a>
           </div>
         </div>

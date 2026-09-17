@@ -138,6 +138,46 @@ button {
   box-shadow: 0 2px 10px rgba(37, 99, 235, 0.35);
 }
 
+.brand-logo-img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 3px 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--border-card);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.brand-logo-img:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+}
+
+.hero-logo-banner {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.hero-brand-card {
+  max-width: 320px;
+  width: 85%;
+  height: auto;
+  border-radius: 14px;
+  padding: 8px 16px;
+  background: #ffffff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--border-card);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.hero-brand-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 36px rgba(37, 99, 235, 0.16);
+}
+
 .brand-title {
   font-weight: 800;
   font-size: 1.15rem;
