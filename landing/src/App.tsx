@@ -204,7 +204,7 @@ export function App() {
       <header className="navbar-wrap">
         <div className="navbar-container">
           <div className="brand-group" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-            <img src="/logo.jpg" alt="CreditFlow" className="brand-logo-img" />
+            <img src="/logo.png" alt="CreditFlow" className="brand-logo-img" />
             <span className="brand-tag">P12 BENCHMARK</span>
           </div>
 
@@ -247,7 +247,7 @@ export function App() {
         <section className="hero-wrapper">
           <div className="hero-logo-banner">
             <img 
-              src="/logo.jpg" 
+              src="/logo.png" 
               alt="CreditFlow — Adaptive Repayments for Real Incomes" 
               className="hero-brand-card" 
             />
@@ -860,9 +860,9 @@ export function App() {
         <div style={{ maxWidth: 1240, margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 16 }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
             <img 
-              src="/logo.jpg" 
+              src="/logo.png" 
               alt="CreditFlow" 
-              style={{ height: 42, width: 'auto', background: '#ffffff', borderRadius: 8, padding: '3px 8px', border: '1px solid var(--border-card)', objectFit: 'contain' }} 
+              style={{ height: 38, width: 'auto', objectFit: 'contain' }} 
             />
             <div style={{ textAlign: 'left' }}>
               <div style={{ fontWeight: 800, color: 'var(--text-primary)', fontSize: '1rem', marginBottom: 2 }}>

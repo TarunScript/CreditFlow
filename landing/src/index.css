@@ -142,17 +142,15 @@ button {
   height: 40px;
   width: auto;
   object-fit: contain;
-  border-radius: 8px;
-  background: #ffffff;
-  padding: 3px 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  border: 1px solid var(--border-card);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, filter 0.2s ease;
 }
 
 .brand-logo-img:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+  transform: scale(1.03);
+}
+
+[data-theme="dark"] .brand-logo-img {
+  filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.6)) brightness(1.2);
 }
 
 .hero-logo-banner {
@@ -162,20 +160,18 @@ button {
 }
 
 .hero-brand-card {
-  max-width: 320px;
+  max-width: 360px;
   width: 85%;
   height: auto;
-  border-radius: 14px;
-  padding: 8px 16px;
-  background: #ffffff;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-  border: 1px solid var(--border-card);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition: transform 0.25s ease, filter 0.25s ease;
 }
 
 .hero-brand-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 14px 36px rgba(37, 99, 235, 0.16);
+  transform: translateY(-2px) scale(1.02);
+}
+
+[data-theme="dark"] .hero-brand-card {
+  filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.5)) brightness(1.18);
 }
 
 .brand-title {
